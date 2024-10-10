@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentura Academic Learning</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo 2.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a  class="active" href="#">Home</a></li>
+                <li><a href="Courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.jpg" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="course-home">
+        <h2>Show Up Enroll our Favorite Lessons</h2>
+    </section>
+
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="images/m3.png" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>Chemistry</h2>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Explanation of theory, laboratory experiments, and analysis of results</p>
+                </div>
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="images/logo 1.png" alt="">
+                <div class="tutor-men">
+                    <h5>Tutor-Men</h5>
+                    <p>Web Developer At Mentura</p>
+                </div>
+            </div>
+            <hr>
+            <h3>course Overview</h3>
+            <p>Chemistry is a natural science that studies matter, its composition, structure, properties, and the energy that accompanies changes in matter. Chemistry also studies the interactions and transformations of matter to form materials that exist in everyday life. 
+                <br><br>Chemistry has an important role in various fields, such as health, agriculture, industry, biology, archeology and law. Some examples of the benefits of chemistry in everyday life are: Accessing electricity with the help of batteries, Communicating with touch screen cellphones, Preserving food, Making medicines to treat various diseases. 
+                <br><br>The word chemistry comes from Arabic, namely Al-Kimiya which means change in matter. Chemistry was first introduced by an Arab scientist named Jahir Ibnu Hayyan in 700 AD.     
+                <br><br>Branches of chemistry include: organic chemistry, inorganic chemistry, analytical chemistry, physical chemistry, biochemistry.</p>
+            <hr>
+            <h3>What you'll learn</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>Substances and Substances: Study various types of substances, both elements and compounds, and their characteristics.</p>
+                <p><i class="far fa-check-circle"></i>Chemical Reactions: Investigates how substances change into other substances through reaction processes, including stoichiometry and reaction mechanisms.</p>
+                <p><i class="far fa-check-circle"></i>Physical and Chemical Properties: Examines properties that can be observed and measured, such as boiling point, melting point, density, and reactivity.</p>
+                <p><i class="far fa-check-circle"></i>Organic and Inorganic Chemistry: Organic chemistry focuses on carbon compounds, while inorganic chemistry studies compounds that do not contain carbon.</p>
+                <p><i class="far fa-check-circle"></i>Physical Chemistry: Combines the principles of physics with chemistry to understand the energetic and kinetic aspects of reactions.</p>
+                <p><i class="far fa-check-circle"></i>Analytical Chemistry: Techniques and methods used to analyze the composition of substances.</p>
+            </div>
+        </div>
+
+        <div class="enroll">
+            <h3>This Course Includes</h3>
+            <p><i class="far fa-newspaper"></i>Module</p>
+            <p><i class="far fa-trophy-alt"></i>Certificate</p>
+            <p><i class="far fa-paperclip"></i>Exercises</p>
+            <p><i class="far fa-infinity"></i>Test</p>
+        </div>
+    </section>
+
+     <footer>
+        <div class="footer-col">
+            <h3>Company</h3>
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Services</h3>
+            <li>Consulation</li>
+            <li>Web desaign</li>
+            <li>Price</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Account</h3>
+            <li>Profile</li>
+            <li>Benefit</li>
+            <li>Experts</li>
+            <li>Provided</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Courses</h3>
+            <li>Biology</li>
+            <li>Chemistry</li>
+            <li>physics</li>
+            <li>Science</li>
+            <li>English</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send discount offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This template is made Mentura Academic Learning</p>
+            <div class="pro-links">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+
+     </footer>
+
+     <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+     </script>
+  
+
+
+</body>
+
+</html>
